@@ -1,0 +1,10 @@
+server:
+  port: 8888
+
+logging:
+  config: classpath:logback/logback.xml
+  level:
+    reactor:
+      netty:
+        http:
+          client: debug
